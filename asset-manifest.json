@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BowTie/static/css/main.616ba065.css",
+    "main.js": "/BowTie/static/js/main.71f222b3.js",
+    "static/js/453.666650f1.chunk.js": "/BowTie/static/js/453.666650f1.chunk.js",
+    "index.html": "/BowTie/index.html",
+    "main.616ba065.css.map": "/BowTie/static/css/main.616ba065.css.map",
+    "main.71f222b3.js.map": "/BowTie/static/js/main.71f222b3.js.map",
+    "453.666650f1.chunk.js.map": "/BowTie/static/js/453.666650f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.616ba065.css",
+    "static/js/main.71f222b3.js"
+  ]
+}
