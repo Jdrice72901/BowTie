@@ -1,0 +1,196 @@
+{
+    "nodes": [
+        {
+            "id": "hazard",
+            "type": "hazard",
+            "label": "Hazard",
+            "description": "Driving a commercial vehicle on a highway",
+            "status": "active",
+            "color": "#FFA500",
+            "group": "center"
+        },
+        {
+            "id": "topEvent",
+            "type": "topEvent",
+            "label": "Top Event",
+            "description": "Loss of control over the vehicle at 70 MPH",
+            "status": "active",
+            "color": "#FF4500",
+            "group": "center"
+        },
+        {
+            "id": "threat1",
+            "type": "threat",
+            "label": "Intoxicated Driving",
+            "description": "Driver of vehicle is intoxicated, harming their ability to drive  safely",
+            "status": "Active Behavior",
+            "color": "#0000FF",
+            "group": "prevention"
+        },
+        {
+            "id": "threat2",
+            "type": "threat",
+            "label": "Distracted Driving",
+            "description": "Driver of the vehicle is distracted, harming their ability to drive safely",
+            "status": "Driver Behavior",
+            "color": "#0000FF",
+            "group": "prevention"
+        },
+        {
+            "id": "threat3",
+            "type": "threat",
+            "label": "Driving on Icy Roads",
+            "description": "Driver is operating the vehicle on icy roads, increasing the risk of losing control",
+            "status": "Weather Conditions",
+            "color": "#0000FF",
+            "group": "prevention"
+        },
+        {
+            "id": "barrier1",
+            "type": "barrier",
+            "label": "Police checkpoints for intoxicated drivers",
+            "description": "Police checkpoints catch intoxicated drivers and remove them from the roads.",
+            "status": "Active Human Intervention",
+            "statusType": "Human",
+            "color": "#008000",
+            "group": "prevention",
+            "collapsed": false
+        },
+        {
+            "id": "barrier2",
+            "type": "barrier",
+            "label": "Car saftey features to reduce distraction",
+            "description": "Voice activated controls, heads-up displays, and alerts system for lane departure help reduce driver distraction.",
+            "status": "Active Hardware Intervention",
+            "statusType": "Hardware",
+            "color": "#008000",
+            "group": "prevention",
+            "collapsed": false
+        },
+        {
+            "id": "barrier3",
+            "type": "barrier",
+            "label": "Informed driving advisories",
+            "description": "Driver listens to weather and road condition advisories to avoid driving on icy roads.",
+            "status": "Active Human Intervention",
+            "statusType": "Human",
+            "color": "#008000",
+            "group": "prevention",
+            "collapsed": false
+        },
+        {
+            "id": "barrier4",
+            "type": "barrier",
+            "label": "Crumble Zones and Airbags",
+            "description": "The vehicle the driver is operating is equipped with crumble zones and airbags to reduce injury in the event of a crash.",
+            "status": "Active Hardware Intervention",
+            "statusType": "Hardware",
+            "color": "#008000",
+            "group": "mitigation",
+            "collapsed": false
+        },
+        {
+            "id": "barrier5",
+            "type": "barrier",
+            "label": "Roll cages and Electronic Stability Control",
+            "description": "The vehicle the driver is operating is equipped with roll cages and electronic stability control to reduce injury in the event of a rollover.",
+            "status": "Active Hardware Intervention",
+            "statusType": "Hardware",
+            "color": "#008000",
+            "group": "mitigation",
+            "collapsed": false
+        },
+        {
+            "id": "barrier6",
+            "type": "barrier",
+            "label": "Advanced Driver Assistance Systems",
+            "description": "The vehicle the driver is operating is equipped with advanced driver assistance systems to help avoid collisions with other vehicles.",
+            "status": "Active Hardware Intervention",
+            "statusType": "Hardware",
+            "color": "#008000",
+            "group": "mitigation",
+            "collapsed": false
+        },
+        {
+            "id": "consequence1",
+            "type": "consequence",
+            "label": "Crash Tnto a Fixed Bbject",
+            "description": "The driver crashes into an object such as a tree, pole, or guardrail.",
+            "status": "inactive",
+            "color": "#FFD700",
+            "group": "mitigation"
+        },
+        {
+            "id": "consequence2",
+            "type": "consequence",
+            "label": "Vehicle Rollover",
+            "description": "The driver as excess speeds causes the vehicle to roll over.",
+            "status": "inactive",
+            "color": "#FFD700",
+            "group": "mitigation"
+        },
+        {
+            "id": "consequence3",
+            "type": "consequence",
+            "label": "Collision with Another Vehicle",
+            "description": "The driver crashes into another vehicle on the road.",
+            "status": "inactive",
+            "color": "#FFD700",
+            "group": "mitigation"
+        }
+    ],
+    "edges": [
+        {
+            "source": "threat1",
+            "target": "barrier1"
+        },
+        {
+            "source": "threat2",
+            "target": "barrier2"
+        },
+        {
+            "source": "threat3",
+            "target": "barrier3"
+        },
+        {
+            "source": "barrier1",
+            "target": "hazard"
+        },
+        {
+            "source": "barrier2",
+            "target": "hazard"
+        },
+        {
+            "source": "barrier3",
+            "target": "hazard"
+        },
+        {
+            "source": "hazard",
+            "target": "topEvent"
+        },
+        {
+            "source": "topEvent",
+            "target": "barrier4"
+        },
+        {
+            "source": "topEvent",
+            "target": "barrier5"
+        },
+        {
+            "source": "topEvent",
+            "target": "barrier6"
+        },
+        {
+            "source": "barrier4",
+            "target": "consequence1"
+        },
+        {
+            "source": "barrier5",
+            "target": "consequence2"
+        },
+        {
+            "source": "barrier6",
+            "target": "consequence3"
+        }
+    ]
+}
