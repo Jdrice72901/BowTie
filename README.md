@@ -9,6 +9,8 @@ Treasure Smith
 Mam Salan Njie
 Angel Wallace
 
+## Project files such as Attempt Log and Project usmmary found in PDF Files folder
+
 # Approach 1 – Build: 
 Implement an interactive Bowtie diagram with ReactFlow +
 elkjs for auto layout. Optional Streamlit viewer.
