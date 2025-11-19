@@ -14,7 +14,10 @@ Implement an interactive Bowtie diagram with ReactFlow +
 elkjs for auto layout. Optional Streamlit viewer.
 
 # Link to prototype:
+## Important notes
+### Double click to hide nodes, single click to open side bar for additional details
 https://jdrice72901.github.io/BowTie/
+
 
 # Risk Story 
 Driving on highways at high speeds introduces hazards such as icy roads, distracted driving, and intoxicated driving, which can lead to loss of control at 70 mph. Initial barriers like informed driving advisories, vehicle safety features, and police checkpoints aim to reduce the likelihood of these threats. If control is lost, secondary barriers such as driver assistance systems, crumple zones, and roll cages help mitigate the severity of impact. Without effective intervention, consequences include collisions with other vehicles, crashing into fixed objects, or vehicle rollovers, resulting in significant injury or property damage.
