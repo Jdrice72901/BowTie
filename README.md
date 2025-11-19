@@ -1,3 +1,14 @@
+#Group 6
+#Team names 
+Jake Rice 
+Owen Williamson
+Treasure Smith
+Mam Salan Njie
+Angel Wallace
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
