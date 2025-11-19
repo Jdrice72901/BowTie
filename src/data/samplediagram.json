@@ -48,7 +48,7 @@
         {
             "id": "barrier1",
             "type": "barrier",
-            "label": "Police checkpoints for intoxicated drivers",
+            "label": "Police Checkpoints for Intoxicated Drivers",
             "description": "Police checkpoints catch intoxicated drivers and remove them from the roads.",
             "status": "Active Human Intervention",
             "statusType": "Human",
@@ -59,7 +59,7 @@
         {
             "id": "barrier2",
             "type": "barrier",
-            "label": "Car saftey features to reduce distraction",
+            "label": "Car Saftey Features to Reduce Distraction",
             "description": "Voice activated controls, heads-up displays, and alerts system for lane departure help reduce driver distraction.",
             "status": "Active Hardware Intervention",
             "statusType": "Hardware",
@@ -70,7 +70,7 @@
         {
             "id": "barrier3",
             "type": "barrier",
-            "label": "Informed driving advisories",
+            "label": "Inclement Weather Advisories",
             "description": "Driver listens to weather and road condition advisories to avoid driving on icy roads.",
             "status": "Active Human Intervention",
             "statusType": "Human",
@@ -81,8 +81,8 @@
         {
             "id": "barrier4",
             "type": "barrier",
-            "label": "Crumble Zones and Airbags",
-            "description": "The vehicle the driver is operating is equipped with crumble zones and airbags to reduce injury in the event of a crash.",
+            "label": "Crumple Zones and Airbags",
+            "description": "The vehicle the driver is operating is equipped with crumple zones and airbags to reduce injury in the event of a crash.",
             "status": "Active Hardware Intervention",
             "statusType": "Hardware",
             "color": "#008000",
