@@ -1,12 +1,19 @@
+# Acknowledgement: 
+This is a student project developed for DSBA 5122 in collaboration with Todus Advisors. Bowtie Symbols are proprietary of Todus Advisors.
+
 # Group 6
-# Team names 
+# Team names:
 Jake Rice 
 Owen Williamson
 Treasure Smith
 Mam Salan Njie
 Angel Wallace
 
+# Approach 1 – Build: 
+Implement an interactive Bowtie diagram with ReactFlow +
+elkjs for auto layout. Optional Streamlit viewer.
 
+# Link to prototype:
 
 
 # Getting Started with Create React App
