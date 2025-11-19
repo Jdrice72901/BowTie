@@ -1,5 +1,5 @@
-#Group 6
-#Team names 
+# Group 6
+# Team names 
 Jake Rice 
 Owen Williamson
 Treasure Smith
