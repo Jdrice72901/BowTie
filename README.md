@@ -2,7 +2,7 @@
 This is a student project developed for DSBA 5122 in collaboration with Todus Advisors. Bowtie Symbols are proprietary of Todus Advisors.
 
 
-## Group 6 Team names:
+# Group 6 Team names:
 Jake Rice 
 Owen Williamson
 Treasure Smith
